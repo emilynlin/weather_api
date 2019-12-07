@@ -51,7 +51,7 @@
 			})
 			console.log(temp)
 
-			let query = "http://api.openweathermap.org/data/2.5/weather?q=" + $('#location').val() + '&units=' + temp + '&APPID=0f14e942d8083c14b55e872acd0e5c40';
+			let query = "https://api.openweathermap.org/data/2.5/weather?q=" + $('#location').val() + '&units=' + temp + '&APPID=0f14e942d8083c14b55e872acd0e5c40';
       console.log("Query is :" + query)
 
       $.getJSON(query,function(json){
